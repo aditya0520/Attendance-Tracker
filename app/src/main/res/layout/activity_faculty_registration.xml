@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gray"
+    android:layout_height="match_parent"
+    tools:context=".FacultyRegistration">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:hint="Name"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+        app:hintTextColor="@color/purple_700"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="392dp"
+            android:layout_height="56dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="132dp"
+        android:hint="Registration Number"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+        app:hintTextColor="@color/purple_700"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <EditText
+            android:id="@+id/registrationNumberEditText"
+            android:layout_width="392dp"
+            android:layout_height="56dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:hint="Email"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+        app:hintTextColor="@color/purple_700"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="392dp"
+            android:layout_height="56dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="219dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="308dp"
+        android:hint="DD/MM/YYYY"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout"
+        app:hintTextColor="@color/purple_700"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/dobEditText"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/custom_input"
+            android:ems="10"
+            android:inputType="date"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/getDateButton"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="7dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="sans-serif"
+        android:text="Date Of Birth"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:backgroundTint="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/branchSpinner"
+        android:layout_width="211dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/custom_input"
+        android:entries="@array/spinnerItemsBranch"
+        android:fontFamily="sans-serif"
+        android:paddingStart="10dp"
+        android:spinnerMode="dialog"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="175dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="sans-serif"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:backgroundTint="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

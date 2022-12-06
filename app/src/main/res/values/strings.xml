@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Attendance Tracker</string>
+    <string name="login_page">Login</string>
+    <string name="student_registration_page">Student Registration</string>
+    <string name="Faculty_registration_page">Faculty Registration</string>
+    <string name="title">Welcome to,\nAttendance Tracker</string>
+    <string-array name="spinnerItemsUsersType">
+        <item>Select User Type:</item>
+        <item>Administrator</item>
+        <item>Faculty</item>
+        <item>Student</item>
+    </string-array>
+    <string-array name="spinnerItemsSemester">
+        <item>Select Semester</item>
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+    </string-array>
+    <string-array name="spinnerItemsBranch">
+        <item>Select Branch</item>
+        <item>Computer Science Engineering</item>
+        <item>Information Technology</item>
+        <item>Computer and Communication Engineering</item>
+        <item>Data Science Engineering</item>
+        <item>Electrical and Electronics Engineering</item>
+        <item>Electrical and Communication Engineering</item>
+        <item>Electronics and Instrumentation Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Biomedical Engineering</item>
+        <item>Biotechnology</item>
+        <item>Chemical Engineering</item>
+        <item>Aeronautical Engineering</item>
+        <item>Automobile Engineering</item>
+        <item>Industrial and Production Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Mechatronics Engineering</item>
+        <item>Media Technology</item>
+    </string-array>
+    <string-array name="spinnerItemsSection">
+        <item>Select Section</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+    <string name="title_activity_admin_page">AdminPage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Admin Name</string>
+    <string name="nav_header_subtitle">admin@email.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Log Out</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_faculty">Faculty</string>
+    <string name="menu_student">Student</string>
+    <string name="menu_course">Course</string>
+    <string name="menu_attendance">Attendance</string>
+    <string name="title_activity_student_page">studentPage</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_faculty_login">FacultyLogin</string>
+    <string name="title_activity_third">Third</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

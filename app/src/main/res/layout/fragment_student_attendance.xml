@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".StudentAttendanceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="2px"
+        android:divider="@color/white"
+        android:id="@+id/courseWiseAttendance"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="56dp" />
+
+</FrameLayout>

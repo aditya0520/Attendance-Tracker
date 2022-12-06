@@ -1,7 +1,7 @@
 # Attendance Tracking Application
 
 
-![image](Attendance%20System/Picture%201.jpg)![image](Attendance%20System/Picture%202.jpg)
+![image](Picture%201.jpg)![image](Picture%202.jpg)
 
 
 This application is mainly designed for the faculties and other staff members of an organization to maintain attendance regularly. Using this system, the subject handlers, staffs or the authorities can verify the number of students present or absent in the class meeting sessions. This application allows the users to mark attendance through mobile devices. Furthermore, this application allows the teachers to mark and edit the attendance in the system database for future retrieval.
